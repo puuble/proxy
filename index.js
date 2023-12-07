@@ -1,7 +1,7 @@
 const ProxyChain = require("proxy-chain");
 
 const server = new ProxyChain.Server({
-  port: 80,
+  port: 8000,
   host: "localhost",
   verbose: true,
 });
